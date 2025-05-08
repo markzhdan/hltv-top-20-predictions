@@ -1,21 +1,21 @@
-Rank,Country,Full Name,Nickname,HLTV_ID
-1,Ukraine,Aleksandr Kostyliev,s1mple,7998
-2,France,Mathieu Herbaut,⁠ZywOo⁠,11893
-3,Bosnia and Herzegovina,Nikola Kovač,NiKo,3741
-4,Russia,Dmitry Sokolov,sh1ro,16920
-5,Russia,Sergey Rykhtorov,⁠Ax1Le⁠,16555
-6,Kazakhstan,Abay Khasenov,HObbit,8528
-7,Russia,Denis Sharipov,electroNic,8918
-8,Latvia,Mareks Gaļinskis,YEKINDAR,13915
-9,Ukraine,Valeriy Vakhovskiy,⁠b1t⁠,18987
-10,Russia,Dzhami Ali,⁠Jame⁠,13776
-11,Denmark,Nicolai Reedtz,device,7592
-12,Bosnia and Herzegovina,Nemanja Kovač,huNter-,3972
-13,Denmark,Benjamin Bremer,blameF,15165
-14,Canada,Keith Markovic,NAF,8520
-15,Brazil,Kaike Cerato,KSCERATO,15631
-16,Denmark,Martin Lund,stavn,10994
-17,Canada,Russel Van Dulken,Twistzz,10394
-18,Estonia,Robin Kool,ropz,11816
-19,United States,Jonathan Jablonowski,⁠EliGE⁠,8738
-20,Latvia,Helvijs Saukants,broky,18053
+Rank,Country,Full Name,Nickname,HLTV_ID,Link
+1,Ukraine,Aleksandr Kostyliev,s1mple,7998,https://www.hltv.org/stats/players/7998/s1mple
+2,France,Mathieu Herbaut,⁠ZywOo⁠,11893,https://www.hltv.org/stats/players/11893/zywoo
+3,Bosnia and Herzegovina,Nikola Kovač,NiKo,3741,https://www.hltv.org/stats/players/3741/niko
+4,Russia,Dmitry Sokolov,sh1ro,16920,https://www.hltv.org/stats/players/16920/sh1ro
+5,Russia,Sergey Rykhtorov,⁠Ax1Le⁠,16555,https://www.hltv.org/stats/players/16555/ax1le
+6,Kazakhstan,Abay Khasenov,HObbit,8528,https://www.hltv.org/stats/players/8528/hobbit
+7,Russia,Denis Sharipov,electroNic,8918,https://www.hltv.org/stats/players/8918/electronic
+8,Latvia,Mareks Gaļinskis,YEKINDAR,13915,https://www.hltv.org/stats/players/13915/yekindar
+9,Ukraine,Valeriy Vakhovskiy,⁠b1t⁠,18987,https://www.hltv.org/stats/players/18987/b1t
+10,Russia,Dzhami Ali,⁠Jame⁠,13776,https://www.hltv.org/stats/players/13776/jame
+11,Denmark,Nicolai Reedtz,device,7592,https://www.hltv.org/stats/players/7592/device
+12,Bosnia and Herzegovina,Nemanja Kovač,huNter-,3972,https://www.hltv.org/stats/players/3972/hunter-
+13,Denmark,Benjamin Bremer,blameF,15165,https://www.hltv.org/stats/players/15165/blamef
+14,Canada,Keith Markovic,NAF,8520,https://www.hltv.org/stats/players/8520/naf
+15,Brazil,Kaike Cerato,KSCERATO,15631,https://www.hltv.org/stats/players/15631/kscerato
+16,Denmark,Martin Lund,stavn,10994,https://www.hltv.org/stats/players/10994/stavn
+17,Canada,Russel Van Dulken,Twistzz,10394,https://www.hltv.org/stats/players/10394/twistzz
+18,Estonia,Robin Kool,ropz,11816,https://www.hltv.org/stats/players/11816/ropz
+19,United States,Jonathan Jablonowski,⁠EliGE⁠,8738,https://www.hltv.org/stats/players/8738/elige
+20,Latvia,Helvijs Saukants,broky,18053,https://www.hltv.org/stats/players/18053/broky

@@ -1,21 +1,21 @@
-Rank,Country,Full Name,Nickname,HLTV_ID
-1,France,Mathieu Herbaut,⁠ZywOo⁠,11893
-2,Ukraine,Aleksandr Kostyliev,⁠s1mple⁠,7998
-3,Denmark,Nicolai Reedtz,device,7592
-4,Bosnia and Herzegovina,Nikola Kovač,⁠NiKo⁠,3741
-5,Russia,Denis Sharipov,⁠electronic⁠,8918
-6,Denmark,Benjamin Bremer,blameF,15165
-7,Estonia,Robin Kool,⁠ropz⁠,11816
-8,United States,Jonathan Jablonowski,EliGE,8738
-9,Denmark,Peter Rasmussen,dupreeh,7398
-10,Germany,Florian Rische,⁠syrsoN⁠,7266
-11,Denmark,Emil Reif,⁠Magisk⁠,9032
-12,Denmark,Martin Lund,⁠stavn⁠,10994
-13,Bosnia and Herzegovina,Nemanja Kovač,huNter-,3972
-14,Brazil,Yuri Santos,⁠yuurih⁠,12553
-15,Sweden,Ludvig Brolin,⁠Brollan,13666
-16,Brazil,Henrique Teles,⁠HEN1⁠,8565
-17,Sweden,Freddy Johansson,KRIMZ,7528
-18,Brazil,Kaike Cerato,⁠KSCERATO⁠,15631
-19,Australia,Justin Savage,⁠jks⁠,4679
-20,United States,Vincent Cayonte,Brehze⁠,9136
+Rank,Country,Full Name,Nickname,HLTV_ID,Link
+1,France,Mathieu Herbaut,⁠ZywOo⁠,11893,https://www.hltv.org/stats/players/11893/zywoo
+2,Ukraine,Aleksandr Kostyliev,⁠s1mple⁠,7998,https://www.hltv.org/stats/players/7998/s1mple
+3,Denmark,Nicolai Reedtz,device,7592,https://www.hltv.org/stats/players/7592/device
+4,Bosnia and Herzegovina,Nikola Kovač,⁠NiKo⁠,3741,https://www.hltv.org/stats/players/3741/niko
+5,Russia,Denis Sharipov,⁠electronic⁠,8918,https://www.hltv.org/stats/players/8918/electronic
+6,Denmark,Benjamin Bremer,blameF,15165,https://www.hltv.org/stats/players/15165/blamef
+7,Estonia,Robin Kool,⁠ropz⁠,11816,https://www.hltv.org/stats/players/11816/ropz
+8,United States,Jonathan Jablonowski,EliGE,8738,https://www.hltv.org/stats/players/8738/elige
+9,Denmark,Peter Rasmussen,dupreeh,7398,https://www.hltv.org/stats/players/7398/dupreeh
+10,Germany,Florian Rische,⁠syrsoN⁠,7266,https://www.hltv.org/stats/players/7266/syrson
+11,Denmark,Emil Reif,⁠Magisk⁠,9032,https://www.hltv.org/stats/players/9032/magisk
+12,Denmark,Martin Lund,⁠stavn⁠,10994,https://www.hltv.org/stats/players/10994/stavn
+13,Bosnia and Herzegovina,Nemanja Kovač,huNter-,3972,https://www.hltv.org/stats/players/3972/hunter-
+14,Brazil,Yuri Santos,⁠yuurih⁠,12553,https://www.hltv.org/stats/players/12553/yuurih
+15,Sweden,Ludvig Brolin,⁠Brollan,13666,https://www.hltv.org/stats/players/13666/brollan
+16,Brazil,Henrique Teles,⁠HEN1⁠,8565,https://www.hltv.org/stats/players/8565/hen1
+17,Sweden,Freddy Johansson,KRIMZ,7528,https://www.hltv.org/stats/players/7528/krimz
+18,Brazil,Kaike Cerato,⁠KSCERATO⁠,15631,https://www.hltv.org/stats/players/15631/kscerato
+19,Australia,Justin Savage,⁠jks⁠,4679,https://www.hltv.org/stats/players/4679/jks
+20,United States,Vincent Cayonte,Brehze⁠,9136,https://www.hltv.org/stats/players/9136/brehze

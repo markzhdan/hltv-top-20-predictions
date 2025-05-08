@@ -1,31 +1,31 @@
-Rank,Country,Full Name,Nickname,HLTV_ID
-1,France,Mathieu Herbaut,ZywOo,11893
-2,Bosnia and Herzegovina,Nikola Kovač,⁠NiKo⁠,3741
-3,Estonia,Robin Kool,ropz,11816
-4,Russia,Ilya Osipov,m0NESY,19230
-5,Israel,Lotan Giladi,Spinx,18221
-6,Spain,Álvaro García,SunPayus,19164
-7,Ukraine,Oleksandr Kostyliev,⁠s1mple⁠,7998
-8,Russia,Dmitry Sokolov,sh1ro,16920
-9,Denmark,Martin Lund,stavn,10994
-10,Latvia,Helvijs Saukants,⁠broky⁠,18053
-11,Denmark,Nicolai Reedtz,device,7592
-12,Slovakia,David Čerňanský,frozen,9960
-13,Bosnia and Herzegovina,Nemanja Kovač,huNter-⁠,3972
-14,Israel,Guy Iluz,NertZ,9436
-15,Denmark,Jakob Nygaard,⁠jabbi⁠,17956
-16,Denmark,Benjamin Bremer,blameF,15165
-17,Denmark,Emil Reif,Magisk,9032
-18,Denmark,Casper Møller,cadiaN,7964
-19,Brazil,Kaike Cerato,KSCERATO,15631
-20,Canada,Russel Van Dulken,Twistzz,10394
-21,Hungary,Ádám Torzsás,torzsi,18072
-22,Russia,Denis Sharipov,electroNic,8918
-23,United States,Jonathan Jablonowski,⁠EliGE⁠,8738
-24,Norway,Håvard Nygaard,rain,8183
-25,Israel,Dorian Berman,xertioN,20312
-26,Russia,Sergey Rykhtorov,⁠Ax1Le⁠,16555
-27,Ukraine,Viktor Orudzhev,sdy,12731
-28,Ukraine,Valeriy Vakhovskiy,⁠b1t⁠,18987
-29,Romania,Mihai Ivan,iM,14759
-30,Canada,Keith Markovic,NAF,8520
+Rank,Country,Full Name,Nickname,HLTV_ID,Link
+1,France,Mathieu Herbaut,ZywOo,11893,https://www.hltv.org/stats/players/11893/zywoo
+2,Bosnia and Herzegovina,Nikola Kovač,⁠NiKo⁠,3741,https://www.hltv.org/stats/players/3741/niko
+3,Estonia,Robin Kool,ropz,11816,https://www.hltv.org/stats/players/11816/ropz
+4,Russia,Ilya Osipov,m0NESY,19230,https://www.hltv.org/stats/players/19230/m0nesy
+5,Israel,Lotan Giladi,Spinx,18221,https://www.hltv.org/stats/players/18221/spinx
+6,Spain,Álvaro García,SunPayus,19164,https://www.hltv.org/stats/players/19164/sunpayus
+7,Ukraine,Oleksandr Kostyliev,⁠s1mple⁠,7998,https://www.hltv.org/stats/players/7998/s1mple
+8,Russia,Dmitry Sokolov,sh1ro,16920,https://www.hltv.org/stats/players/16920/sh1ro
+9,Denmark,Martin Lund,stavn,10994,https://www.hltv.org/stats/players/10994/stavn
+10,Latvia,Helvijs Saukants,⁠broky⁠,18053,https://www.hltv.org/stats/players/18053/broky
+11,Denmark,Nicolai Reedtz,device,7592,https://www.hltv.org/stats/players/7592/device
+12,Slovakia,David Čerňanský,frozen,9960,https://www.hltv.org/stats/players/9960/frozen
+13,Bosnia and Herzegovina,Nemanja Kovač,huNter-⁠,3972,https://www.hltv.org/stats/players/3972/hunter-
+14,Israel,Guy Iluz,NertZ,9436,https://www.hltv.org/stats/players/9436/nertz
+15,Denmark,Jakob Nygaard,⁠jabbi⁠,17956,https://www.hltv.org/stats/players/17956/jabbi
+16,Denmark,Benjamin Bremer,blameF,15165,https://www.hltv.org/stats/players/15165/blamef
+17,Denmark,Emil Reif,Magisk,9032,https://www.hltv.org/stats/players/9032/magisk
+18,Denmark,Casper Møller,cadiaN,7964,https://www.hltv.org/stats/players/7964/cadian
+19,Brazil,Kaike Cerato,KSCERATO,15631,https://www.hltv.org/stats/players/15631/kscerato
+20,Canada,Russel Van Dulken,Twistzz,10394,https://www.hltv.org/stats/players/10394/twistzz
+21,Hungary,Ádám Torzsás,torzsi,18072,https://www.hltv.org/stats/players/18072/torzsi
+22,Russia,Denis Sharipov,electroNic,8918,https://www.hltv.org/stats/players/8918/electronic
+23,United States,Jonathan Jablonowski,⁠EliGE⁠,8738,https://www.hltv.org/stats/players/8738/elige
+24,Norway,Håvard Nygaard,rain,8183,https://www.hltv.org/stats/players/8183/rain
+25,Israel,Dorian Berman,xertioN,20312,https://www.hltv.org/stats/players/20312/xertion
+26,Russia,Sergey Rykhtorov,⁠Ax1Le⁠,16555,https://www.hltv.org/stats/players/16555/ax1le
+27,Ukraine,Viktor Orudzhev,sdy,12731,https://www.hltv.org/stats/players/12731/sdy
+28,Ukraine,Valeriy Vakhovskiy,⁠b1t⁠,18987,https://www.hltv.org/stats/players/18987/b1t
+29,Romania,Mihai Ivan,iM,14759,https://www.hltv.org/stats/players/14759/im
+30,Canada,Keith Markovic,NAF,8520,https://www.hltv.org/stats/players/8520/naf

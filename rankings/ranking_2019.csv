@@ -1,21 +1,21 @@
-Rank,Country,Full Name,Nickname,HLTV_ID
-1,France,Mathieu Herbaut,ZywOo,11893
-2,Ukraine,Aleksandr Kostyliev,s1mple,7998
-3,Denmark,Nicolai Reedtz,device,7592
-4,United States,Jonathan Jablonowski,EliGE,8738
-5,Denmark,Emil Reif,Magisk,9032
-6,Russia,Denis Sharipov,electronic,8918
-7,Canada,Keith Markovic,NAF,8520
-8,United States,Vincent Cayonte,Brehze,9136
-9,Canada,Russel Van Dulken,Twistzz,10394
-10,Estonia,Robin Kool,ropz,11816
-11,Bosnia and Herzegovina,Nikola Kovac,NiKo,3741
-12,Turkey,Özgür Eker,woxic,8574
-13,Finland,Jere Salo,sergej,11916
-14,Denmark,Andreas Højsleth,Xyp9x,4954
-15,Australia,Justin Savage,jks,4679
-16,Denmark,Peter Rasmussen,dupreeh,7398
-17,Sweden,Freddy Johansson,KRIMZ,7528
-18,Bulgaria,Tsvetelin Dimitrov,CeRq,11219
-19,Sweden,Ludvig Brolin,Brollan,13666
-20,United States,Ethan Arnold,Ethan,10671
+Rank,Country,Full Name,Nickname,HLTV_ID,Link
+1,France,Mathieu Herbaut,ZywOo,11893,https://www.hltv.org/stats/players/11893/zywoo
+2,Ukraine,Aleksandr Kostyliev,s1mple,7998,https://www.hltv.org/stats/players/7998/s1mple
+3,Denmark,Nicolai Reedtz,device,7592,https://www.hltv.org/stats/players/7592/device
+4,United States,Jonathan Jablonowski,EliGE,8738,https://www.hltv.org/stats/players/8738/elige
+5,Denmark,Emil Reif,Magisk,9032,https://www.hltv.org/stats/players/9032/magisk
+6,Russia,Denis Sharipov,electronic,8918,https://www.hltv.org/stats/players/8918/electronic
+7,Canada,Keith Markovic,NAF,8520,https://www.hltv.org/stats/players/8520/naf
+8,United States,Vincent Cayonte,Brehze,9136,https://www.hltv.org/stats/players/9136/brehze
+9,Canada,Russel Van Dulken,Twistzz,10394,https://www.hltv.org/stats/players/10394/twistzz
+10,Estonia,Robin Kool,ropz,11816,https://www.hltv.org/stats/players/11816/ropz
+11,Bosnia and Herzegovina,Nikola Kovac,NiKo,3741,https://www.hltv.org/stats/players/3741/niko
+12,Turkey,Özgür Eker,woxic,8574,https://www.hltv.org/stats/players/8574/woxic
+13,Finland,Jere Salo,sergej,11916,https://www.hltv.org/stats/players/11916/sergej
+14,Denmark,Andreas Højsleth,Xyp9x,4954,https://www.hltv.org/stats/players/4954/xyp9x
+15,Australia,Justin Savage,jks,4679,https://www.hltv.org/stats/players/4679/jks
+16,Denmark,Peter Rasmussen,dupreeh,7398,https://www.hltv.org/stats/players/7398/dupreeh
+17,Sweden,Freddy Johansson,KRIMZ,7528,https://www.hltv.org/stats/players/7528/krimz
+18,Bulgaria,Tsvetelin Dimitrov,CeRq,11219,https://www.hltv.org/stats/players/11219/cerq
+19,Sweden,Ludvig Brolin,Brollan,13666,https://www.hltv.org/stats/players/13666/brollan
+20,United States,Ethan Arnold,Ethan,10671,https://www.hltv.org/stats/players/10671/ethan

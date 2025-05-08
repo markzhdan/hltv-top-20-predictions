@@ -6,9 +6,8 @@
 import time
 import csv
 import pickle
+import requests
 from bs4 import BeautifulSoup as BS
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 
 # URL Modifiers
 urlInfo = {
@@ -44,32 +43,43 @@ class Stats:
 
 
 class HLTVScraper:
-    def __init__(self):
-        chromeOptions = Options()
-        chromeOptions.add_argument("--headless")
-        chromeOptions.add_argument("--disable-gpu")
-        chromeOptions.add_argument("--no-sandbox")
-        chromeOptions.add_argument("--disable-dev-shm-usage")
-        chromeOptions.add_argument("--user-agent=Mozilla/5.0")
-        self.driver = webdriver.Chrome(options=chromeOptions)
+    def __init__(self, bypass_url="http://localhost:8000/html"):
+        self.bypass_url = bypass_url
 
     def get_stats(self, url):
-        self.driver.get(url)
-        soup = BS(self.driver.page_source, "html.parser")
-        stats = soup.find_all(class_="summaryStatBreakdownDataValue")
-        completeStats = []
+        try:
+            response = requests.get(self.bypass_url, params={"url": url}, timeout=20)
 
-        for stat in stats[:6]:
-            try:
-                value = stat.get_text().strip().rstrip("%")
-                completeStats.append(float(value))
-            except:
-                completeStats.append(0.0)
+            print(f"\n📥 Response for URL:\n{url}")
+            print(f"🔢 Status Code: {response.status_code}")
+            print(f"🧾 Content-Type: {response.headers.get('content-type')}")
+            print(f"🧪 Raw Text Preview:\n{response.text[:500]}\n{'-'*50}")
 
-        return completeStats if len(completeStats) == 6 else None
+            if response.status_code != 200:
+                print("❌ Non-200 response — skipping.")
+                return None
 
-    def close(self):
-        self.driver.quit()
+            # Since server returns HTML directly, not JSON
+            html = response.text
+
+            soup = BS(html, "html.parser")
+            stats = soup.find_all(class_="summaryStatBreakdownDataValue")
+
+            completeStats = []
+            for stat in stats[:6]:
+                try:
+                    value = stat.get_text().strip().rstrip("%")
+                    completeStats.append(float(value))
+                except:
+                    completeStats.append(0.0)
+
+            print(f"🔍 Parsed Stats: {completeStats}")
+
+            return completeStats if len(completeStats) == 6 else None
+
+        except Exception as e:
+            print(f"❌ Error fetching HTML for {url}: {e}")
+            return None
 
 
 def save_pickle(obj, filename):
@@ -84,15 +94,13 @@ def main(year):
 
     scraper = HLTVScraper()
 
-    with open("player_links.csv", "r") as file:
+    with open("data/player_links.csv", "r") as file:
         reader = csv.reader(file)
         for row in reader:
             if not row or not row[0].strip():
                 continue  # Skip empty lines
             try:
-                base_url = row[0].strip().strip('"')  # Remove extra quotes
-                print("Parsed player URL:", base_url)
-
+                base_url = row[0].strip().strip('"')
                 player_name = base_url.split("/")[-1]
                 data[player_name] = {}
 
@@ -106,21 +114,18 @@ def main(year):
                             url += urlInfo[mt]
                         url += urlInfo[rf]
 
-                        print(f"Scraping {player_name} - {mt_key} - {rf}...")
-
+                        print(f"🔍 Scraping {player_name} - {mt_key} - {rf}...")
                         stats = scraper.get_stats(url)
                         data[player_name][mt_key][rf] = stats
-
                         time.sleep(1.5)
 
             except Exception as e:
-                print(f"Error for {row}: {e}")
+                print(f"⚠️ Error for {row}: {e}")
                 continue
 
-    scraper.close()
     save_pickle(data, f"player_data_{year}_expanded.pkl")
     print(f"\n✅ All combinations scraped and saved for {year}.")
 
 
 if __name__ == "__main__":
-    main("2022")  # 🔁 Change this to scrape a different year
+    main("2022")
