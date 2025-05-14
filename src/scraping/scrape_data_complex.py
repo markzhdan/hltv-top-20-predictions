@@ -1,5 +1,4 @@
-# scrape_data_extended.py
-# Mark Zhdan | Final version: 05/08/25 — With refined invalid block handling and incremental save
+# Mark Zhdan | Final version: 05/08/25
 
 import os
 import time
